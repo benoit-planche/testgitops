@@ -4,9 +4,9 @@ metadata:
   name: trigger-rally
 spec:
   destination:
-    name: ''
+    name: 'default'
     namespace: triggerrally
-    server: http://localhost:2222/
+    server: http://kubernetes.default.svc
   source:
     path: /
     repoURL: git@github.com:benoit-planche/testgitops.git
