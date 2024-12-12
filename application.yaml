@@ -1,0 +1,15 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: trigger-rally
+spec:
+  destination:
+    name: ''
+    namespace: triggerrally
+    server: http://localhost:2222/
+  source:
+    path: /
+    repoURL: git@github.com:benoit-planche/testgitops.git
+    targetRevision: HEAD
+  sources: []
+  project: gitops
