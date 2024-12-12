@@ -4,7 +4,6 @@ metadata:
   name: trigger-rally
 spec:
   destination:
-    name: 'default'
     namespace: triggerrally
     server: http://kubernetes.default.svc
   source:
