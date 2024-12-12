@@ -5,6 +5,6 @@ service:
   externalPort: 80
   internalPort: 80
 triggerrally:
-  host: "http://localhost:2222"
+  host: "http://localhost"
   ingress:
     enabled: true
