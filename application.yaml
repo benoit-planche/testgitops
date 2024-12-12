@@ -5,10 +5,10 @@ metadata:
 spec:
   destination:
     namespace: triggerrally
-    server: http://kubernetes.default.svc
+    server: https://kubernetes.default.svc
   source:
     path: /
-    repoURL: git@github.com:benoit-planche/testgitops.git
+    repoURL: https://github.com/benoit-planche/testgitops.git
     targetRevision: HEAD
   sources: []
   project: gitops
