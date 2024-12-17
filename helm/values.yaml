@@ -5,6 +5,5 @@ service:
   externalPort: 80
   internalPort: 80
 triggerrally:
-  host: "http://kubernetes.default.svc"
   ingress:
     enabled: true
